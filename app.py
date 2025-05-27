@@ -3,7 +3,6 @@ import pickle
 import numpy as np
 
 # Load model and scaler
-model = pickle.load(open('soil_model_clean.pkl', 'rb'))
 scaler = pickle.load(open('scaler.pkl', 'rb'))
 encoder = pickle.load(open('label_encoder.pkl', 'rb'))
 
